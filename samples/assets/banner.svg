@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Markdown Render banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#003333" />
+      <stop offset="0.55" stop-color="#006666" />
+      <stop offset="1" stop-color="#00a6a6" />
+    </linearGradient>
+    <radialGradient id="glow" cx="0.2" cy="0.1" r="0.9">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.35" />
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0" />
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1" />
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="320" rx="28" fill="url(#bg)" />
+  <rect width="1200" height="320" rx="28" fill="url(#glow)" />
+  <rect width="1200" height="320" rx="28" fill="url(#grid)" />
+
+  <circle cx="1040" cy="60" r="180" fill="#ffffff" fill-opacity="0.06" />
+  <circle cx="1120" cy="280" r="120" fill="#ffffff" fill-opacity="0.05" />
+
+  <g transform="translate(72 74)">
+    <rect x="0" y="0" width="72" height="72" rx="18" fill="#ffffff" fill-opacity="0.16" stroke="#ffffff" stroke-opacity="0.35" />
+    <path d="M16 22h40v28H16z" fill="none" stroke="#ffffff" stroke-width="3.5" stroke-linejoin="round" />
+    <path d="M24 44V30l8 9 8-9v14" fill="none" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M47 30v14m0 0-5-5m5 5 5-5" fill="none" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+
+  <text x="172" y="113" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="38" font-weight="700" fill="#ffffff" letter-spacing="-0.5">
+    Markdown Render
+  </text>
+  <text x="172" y="150" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="19" fill="#ccfbfb">
+    Local files · GitHub-flavored · Tailwind styled
+  </text>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">
+    <rect x="72" y="206" width="470" height="48" rx="12" fill="#002626" fill-opacity="0.55" stroke="#99f6f6" stroke-opacity="0.35" />
+    <circle cx="96" cy="230" r="5" fill="#f87171" />
+    <circle cx="114" cy="230" r="5" fill="#fbbf24" />
+    <circle cx="132" cy="230" r="5" fill="#34d399" />
+    <text x="154" y="236" fill="#ccfbfb">npm run dev -- ./notes.md</text>
+  </g>
+
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#ccfbfb">
+    <text x="620" y="236" fill-opacity="0.9">Drop a file, paste a path, or load the demo →</text>
+  </g>
+</svg>
